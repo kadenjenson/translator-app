@@ -5,9 +5,9 @@ export default function UserPage()
     return (
         <>
             <h1>
-                <Link href={'/'}>Back to Home Page</Link>
+                <Link href="/">Back to Home Page</Link>
             </h1>
             <h1>Hello User!</h1>
         </>
-    )
-}
+    );
+};

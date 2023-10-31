@@ -12,17 +12,11 @@ export default function Header() {
         <Link href="/">
           Home
         </Link>
-        <Link href="/services">
-          Services
-        </Link>
-        <Link href="/booking">
-          Booking
-        </Link>
-        <Link href="/testimonials">
-          Testimonials
-        </Link>
         <Link href="/about">
           About
+        </Link>
+        <Link href="/blog">
+          Blog
         </Link>
         <Link href="/contact">
           Contact

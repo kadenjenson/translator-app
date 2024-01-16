@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link"
 
 export default function UserPage()
 {
@@ -8,5 +8,5 @@ export default function UserPage()
         Hello User! Go back to the <Link href="/">Home Page</Link>
       </h1>
     </>
-  );
-};
+  )
+}

@@ -1,8 +1,9 @@
 import Link from 'next/link';
 
-export default function Header() {
+export default function Header()
+{
   return (
-    <header className="header">
+    <header className="z-10 w-full items-center justify-between font-mono text-sm lg:flex">
       <div className="logo">
         <Link href="/">
           Your Logo

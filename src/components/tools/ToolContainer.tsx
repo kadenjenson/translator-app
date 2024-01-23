@@ -1,3 +1,5 @@
+import Head from "next/head"
+
 export default function ToolContainer({
   children,
   title,
@@ -16,7 +18,11 @@ export default function ToolContainer({
   description: string
   image: string
   url: string
-  date: string 
+  date: string
+  author: string
+  tags: string
+  type: string
+  slug: string
 }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">

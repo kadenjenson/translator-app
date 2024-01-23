@@ -26,7 +26,7 @@ export default function ToolContainer({
 }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
+      {/* <Head>
         <title>{title} - Web Utilities</title>
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
@@ -46,7 +46,7 @@ export default function ToolContainer({
         <meta name="twitter:title" content={`${title} - Web Utilities`} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-      </Head>
+      </Head> */}
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         {children}
       </main>

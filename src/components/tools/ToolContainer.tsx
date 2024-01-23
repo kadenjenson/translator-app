@@ -13,16 +13,16 @@ export default function ToolContainer({
   slug,
   ...props
 }: {
-  children: React.ReactNode
-  title: string
-  description: string
-  image: string
-  url: string
-  date: string
-  author: string
-  tags: string
-  type: string
-  slug: string
+  children?: React.ReactNode
+  title?: string
+  description?: string
+  image?: string
+  url?: string
+  date?: string
+  author?: string
+  tags?: string
+  type?: string
+  slug?: string
 }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">

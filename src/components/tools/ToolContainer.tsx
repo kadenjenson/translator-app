@@ -48,6 +48,8 @@ export default function ToolContainer({
         <meta name="twitter:image" content={image} />
       </Head> */}
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+        <h2>{ title || 'ToolContainer' }</h2>
+        <p>{ description }</p>
         {children}
       </main>
     </div>
